@@ -15,3 +15,18 @@ https://discord.com/developers/applications
 6. Pega el “Client ID” de tu bot donde dice: “Client ID:” y haz click en el enlace de abajo, simplemente, invita al bot a tu server como lo harías con cualquier otro.
 7. Si estás en Windows, ejecuta el archivo “BOT.bat” o “BOT” como administrador, saldrá una terminal de Windows donde se enviarán los mensajes junto con los datos. Si estás en linux o en MacOS, guarda la carpeta que has descargado en el escritorio, abre la terminal del sistema y escribe el siguiente comando: “CD DESKTOP”, pulsa enter. Escribe “node index.js”
 (NOTA): Es necesario tener instalado “Node.js”: (https://nodejs.org/es/)
+
+# Instructions [EN]:
+1. Go to the “Discord developers portal” page:
+https://discord.com/developers/applications
+2. Click on "New Application", enter the name you want your bot to have. (You can change it later)
+3. Once your application is created, you will be able to change your profile picture, name and description, remember that you cannot share the "Client secret"
+4. In “SETTINGS”, go to the “Bot” tab and click on “Add Bot”, click on “Acept”, you will be able to change the profile photo of your bot, its name (remember that if it has a very used, you must change it) (we recommend unchecking where it says "Public Bot" so that only you can invite it to the servers) (It is VERY important that you do not share the "TOKEN" of your bot)
+5. In “General information”, copy the “Client ID” of your bot, go to the “Discord permissions calculator” page: (https://discordapi.com/permissions.html#68608) and check the following permissions :
+- Read Message History
+- Send Messages
+- Read Messages
+- View Channel
+6. Paste the "Client ID" of your bot where it says: "Client ID:" and click on the link below, simply invite the bot to your server as you would any other.
+7. If you are on Windows, run the file "BOT.bat" or "BOT" as administrator, a Windows terminal will appear where the messages will be sent along with the data. If you are on Linux or MacOS, save the folder you downloaded to the desktop, open the system terminal and type the following command: "CD DESKTOP", hit enter. Write "node index.js"
+(NOTE): It is necessary to have “Node.js” installed: (https://nodejs.org/en/)
